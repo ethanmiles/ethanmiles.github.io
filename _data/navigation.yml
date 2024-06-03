@@ -2,13 +2,13 @@
 main:
   - title: "CV"
     #url: /CV/
-    url: /files/CV.pdf
-    
-  - title: "Work in Progress"
-    url: /works/    
+    url: /files/Miles_CV.pdf
+
+  - title: "Research"
+    url: /research/    
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/   
     
   - title: "Photography"
     url: /photos/

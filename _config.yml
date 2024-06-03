@@ -21,10 +21,10 @@ repository               : "ethanmiles/ethanmiles.github.io"
 #               Additional customization can be done by editing /_includes/author-profile.html
 author:
   # Biographic information
-  avatar           : "headshot.jpg"
+  avatar           : "blue_mosque.jpg"
   name             : "Ethan Miles"
   pronouns         : "he/him"  
-  bio              : "Ph.D Candidate (Government)"
+  bio              : "Ph.D Candidate, Department of Government"
   location         : "Cambridge, MA"
   employer         : "Harvard University"
   uri              : # URL
