@@ -5,12 +5,10 @@ permalink: /research/
 author_profile: true
 ---
 
-{% if site.author.googlescholar %}
-  <div class="wordwrap">You can also find my articles on <a href="{{site.author.googlescholar}}">my Google Scholar profile</a>.</div>
-{% endif %}
+# Selected Works in Progress
 
-{% include base_path %}
+1. Dissertation project: Essays on the Political Economy of Firm Nationality
 
-{% for post in site.publications reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+2. The Good, The Bad, and The Ugly: Partisan Cues and Individual Perceptions of Trade Deal Quality (with Ruofan Ma)
+
+Do the Robots Make Us Racist? Exploring the E ects of Automation Exposure on Racial Bias (with Sung In Kim)
