@@ -1,7 +1,7 @@
 ---
 title: "El Capitan"
 excerpt: "Photo from the back side of El Capitan, Yosemite National Park, California. <br/><img src='/images/ElCapFinal.jpg'>"
-collection: Photography
+collection: photography
 ---
 
 ![Display of El Capitan](/images/ElCapFinal.jpg)
