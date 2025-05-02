@@ -206,10 +206,10 @@ collections:
   publications:
     output: true
     permalink: /:collection/:path/
-  portfolio:
+  photography:
     output: true
     permalink: /:collection/:path/
-  talks:
+  musings:
     output: true
     permalink: /:collection/:path/
 
@@ -252,7 +252,7 @@ defaults:
       author_profile: true
       share: true
       comments: true
-  # _portfolio
+  # _photohgraphy
   - scope:
       path: ""
       type: portfolio
@@ -261,12 +261,12 @@ defaults:
       author_profile: true
       share: true
       comment: true
-  # _talks
+  # _musings
   - scope:
       path: ""
-      type: talks
+      type: musings
     values:
-      layout: talk
+      layout: musings
       author_profile: true
       share: true
 
