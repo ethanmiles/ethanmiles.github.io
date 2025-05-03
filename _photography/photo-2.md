@@ -1,7 +1,9 @@
 ---
-title: "El Capitan"
-excerpt: "Photo from the back side of El Capitan, Yosemite National Park, California. <br/><img src='/images/ElCapFinal.jpg'>"
+title: "Glacier Sky"
+excerpt: "Photo from Glacier National Park, Montana. 
 collection: photography
 header:
-    image: <br/><img src='/images/ElCapFinal.jpg'>
+    image: <br/><img src='/images/DSC_0043.jpg'>
 ---
+
+![Glacier](/images/DSC_0043.jpg)

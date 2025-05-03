@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/ElCapFinal.jpg'>
 ---
 
-<img src="/images/ElCapFinal.jpg" style="width: 100%; height: auto; object-fit: contain;">
+![El Capitan](/images/ElCapFinal.jpg)
