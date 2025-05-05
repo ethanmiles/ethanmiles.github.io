@@ -10,7 +10,7 @@
  *
 */
 
-@import "vendor/breakpoint/breakpoint"; // media query mixins
+@import "vendor/breakpoint/breakpoint"; // media query mixins;
 @import "variables";
 @import "mixins";
 @import "vendor/susy/susy";
@@ -42,26 +42,26 @@
 
 /* Photography collection styles */
 .page__content {
-    img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-      margin-bottom: 1em;
-    }
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 1em;
   }
-  
-  .archive__item-teaser {
-    img {
-      width: 100%;
-      height: auto;
-      object-fit: contain;
-    }
+}
+
+.archive__item-teaser {
+  img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
   }
-  
-  .collection-photography {
-    img {
-      max-width: 100%;
-      display: block;
-      margin: 0 auto;
-    }
+}
+
+.collection-photography {
+  img {
+    max-width: 100%;
+    display: block;
+    margin: 0 auto;
   }
+}
