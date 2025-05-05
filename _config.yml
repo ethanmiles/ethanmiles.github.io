@@ -255,7 +255,7 @@ defaults:
   # _photography
   - scope:
       path: ""
-      type: portfolio
+      type: photography
     values:
       layout: single
       author_profile: true
