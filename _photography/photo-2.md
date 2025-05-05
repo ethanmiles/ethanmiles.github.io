@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/DSC_0043.jpg'>
 ---
 
-![Glacier](/images/DSC_0043.jpg)
+<img src="/images/DSC_0043.jpg" alt="Glacier Sky">

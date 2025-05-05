@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/DSC-0805.jpg'>
 ---
 
-![Golden](/images/DSC_0805.jpg)
+<img src="/images/DSC_0805.jpg" alt="Golden">

@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/DSC_0040.jpg'>
 ---
 
-![Tower Records](/images/DSC_0040.jpg)
+<img src="/images/DSC_0040.jpg" alt="Tower Records">

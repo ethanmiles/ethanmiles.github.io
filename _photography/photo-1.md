@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/ElCapFinal.jpg'>
 ---
 
-![El Capitan](/images/ElCapFinal.jpg)
+<img src="/images/ElCapFinal.jpg" alt="El Capitan">
