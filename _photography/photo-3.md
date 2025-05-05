@@ -6,4 +6,4 @@ header:
     image: <br/><img src='/images/DSC_0109-Enhanced-SR.jpg'>
 ---
 
-<img src="/images/DSC_0109-Enhanced-SR.jpg" alt="Hagia Sophia Lights">
+<img src="/images/DSC_0109-Enhanced-SR.jpg" style="width: 100%; height: auto; object-fit: contain;">

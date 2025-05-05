@@ -39,29 +39,3 @@
 @import "vendor/font-awesome/brands";
 @import "vendor/magnific-popup/magnific-popup";
 @import "print";
-
-/* Photography collection styles */
-.page__content {
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-    margin-bottom: 1em;
-  }
-}
-
-.archive__item-teaser {
-  img {
-    width: 100%;
-    height: auto;
-    object-fit: contain;
-  }
-}
-
-.collection-photography {
-  img {
-    max-width: 100%;
-    display: block;
-    margin: 0 auto;
-  }
-}
