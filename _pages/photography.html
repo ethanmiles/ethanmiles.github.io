@@ -5,9 +5,72 @@ permalink: /photography/
 author_profile: true
 ---
 
+<style>
+.photo-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+  margin-top: 20px;
+}
+
+.photo-item {
+  position: relative;
+  overflow: hidden;
+  border-radius: 4px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+  transition: transform 0.2s;
+}
+
+.photo-item:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 4px 12px rgba(0,0,0,0.2);
+}
+
+.photo-item img {
+  width: 100%;
+  height: 250px;
+  object-fit: cover;
+  display: block;
+}
+
+.photo-caption {
+  padding: 15px;
+  background: white;
+}
+
+.photo-caption h3 {
+  margin: 0 0 8px 0;
+  font-size: 1.1em;
+  font-weight: 600;
+}
+
+.photo-caption p {
+  margin: 0;
+  font-size: 0.9em;
+  color: #666;
+}
+
+.photo-item a {
+  text-decoration: none;
+  color: inherit;
+}
+</style>
+
 {% include base_path %}
 
+<div class="photo-grid">
 {% for post in site.photography %}
-  {% include archive-single.html type="grid" %}
+  <div class="photo-item">
+    <a href="{{ base_path }}{{ post.url }}">
+      {% if post.image %}
+        <img src="{{ base_path }}/images/{{ post.image }}" alt="{{ post.title }}">
+      {% endif %}
+      <div class="photo-caption">
+        <h3>{{ post.title }}</h3>
+        <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+      </div>
+    </a>
+  </div>
 {% endfor %}
+</div>
 
