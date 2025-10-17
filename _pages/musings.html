@@ -11,6 +11,12 @@ author_profile: true
 
 {% endif %}
 
-{% for post in site.musings reversed %}
-  {% include archive-single-talk.html %}
-{% endfor %}
+{% assign valid_posts = site.musings | where_exp: "post", "post.date < site.time" %}
+
+{% if valid_posts.size > 0 %}
+  {% for post in valid_posts reversed %}
+    {% include archive-single-talk.html %}
+  {% endfor %}
+{% else %}
+  <p style="text-align: center; font-style: italic; color: #999; padding: 40px 0;">Nothing to see here... yet</p>
+{% endif %}
