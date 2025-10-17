@@ -1,6 +1,6 @@
 ---
 title: "Hagia Sophia Lights"
-excerpt: "Photo of the Hagia Sophia from a rooftop, Istanbul, Turkey."
+excerpt: "Hagia Sophia from a rooftop, Istanbul, Turkey."
 collection: photography
 image: DSC_0109-Enhanced-SR.jpg
 ---

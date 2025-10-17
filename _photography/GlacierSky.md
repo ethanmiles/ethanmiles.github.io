@@ -1,6 +1,6 @@
 ---
 title: "Glacier Sky"
-excerpt: "Photo from Glacier National Park, Montana."
+excerpt: "Glacier National Park, Montana."
 collection: photography
 image: DSC_0043.jpg
 ---

@@ -1,6 +1,6 @@
 ---
 title: "Golden"
-excerpt: "Photo of a Yellow Tree in San Francisco, California."
+excerpt: "Yellow Tree in San Francisco, California."
 collection: photography
 image: DSC_0805.jpg
 ---

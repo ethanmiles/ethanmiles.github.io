@@ -1,6 +1,6 @@
 ---
 title: "Tower Records"
-excerpt: "Photo of Tower Records in San Francisco, California."
+excerpt: "Tower Records in San Francisco, California."
 collection: photography
 image: DSC_0040.jpg
 ---

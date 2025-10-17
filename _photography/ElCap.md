@@ -1,6 +1,6 @@
 ---
 title: "El Capitan"
-excerpt: "Photo from the back side of El Capitan, Yosemite National Park, California."
+excerpt: "Back side of El Capitan, Yosemite National Park, California."
 collection: photography
 image: ElCapFinal.jpg
 ---
