@@ -15,4 +15,4 @@ I am affiliated with the Institute for Quantitative Social Science (IQSS), Weath
 
 In my spare time, I enjoy photography, playing guitar, studying chess, and agonizing over Michigan athletics.
 
-I can be contacted at <ethanmiles@g.harvard.edu.>
+I can be contacted at <ethanmiles@g.harvard.edu>.
