@@ -63,7 +63,8 @@ author_profile: true
   <div class="photo-item">
     <a href="{{ base_path }}{{ post.url }}">
       {% if post.image %}
-        <img src="{{ base_path }}/images/{{ post.image }}" alt="{{ post.title }}">
+        {% assign image_name = post.image | split: '.' | first %}
+        <img src="{{ base_path }}/images/thumbnails/{{ image_name }}_thumb.jpg" alt="{{ post.title }}">
       {% endif %}
       <div class="photo-caption">
         <h3>{{ post.title }}</h3>

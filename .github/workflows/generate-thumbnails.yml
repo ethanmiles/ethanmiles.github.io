@@ -1,0 +1,65 @@
+name: Generate Thumbnails
+
+on:
+  push:
+    branches:
+      - master
+    paths:
+      - 'images/**'
+      - '!images/thumbnails/**'
+
+jobs:
+  generate-thumbnails:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: Install ImageMagick
+        run: sudo apt-get update && sudo apt-get install -y imagemagick
+
+      - name: Generate thumbnails
+        run: |
+          mkdir -p images/thumbnails
+
+          # Process all large images in /images/ that don't have thumbnails
+          for img in images/*.jpg images/*.JPG images/*.jpeg images/*.JPEG images/*.png images/*.PNG; do
+            [ -f "$img" ] || continue
+
+            # Get file size in bytes
+            size=$(stat -c%s "$img")
+
+            # Only process files larger than 500KB
+            if [ "$size" -gt 500000 ]; then
+              filename=$(basename "$img")
+              name="${filename%.*}"
+              thumbfile="images/thumbnails/${name}_thumb.jpg"
+
+              # Only generate if thumbnail doesn't exist
+              if [ ! -f "$thumbfile" ]; then
+                echo "Generating thumbnail for $img"
+                convert "$img" -resize 500x500\> -quality 70 "$thumbfile"
+              fi
+            fi
+          done
+
+      - name: Check for changes
+        id: check_changes
+        run: |
+          if [ -n "$(git status --porcelain images/thumbnails/)" ]; then
+            echo "changes=true" >> $GITHUB_OUTPUT
+          else
+            echo "changes=false" >> $GITHUB_OUTPUT
+          fi
+
+      - name: Commit thumbnails
+        if: steps.check_changes.outputs.changes == 'true'
+        run: |
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
+          git add images/thumbnails/
+          git commit -m "Auto-generate thumbnails for new images"
+          git push
