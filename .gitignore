@@ -1,6 +1,9 @@
 # macOS
 .DS_Store
 
+# Claude Code session logs
+.claude/
+
 # Ignore the contents of the _site directory
 _site/
 
