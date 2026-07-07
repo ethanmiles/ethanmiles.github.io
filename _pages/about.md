@@ -9,7 +9,7 @@ redirect_from:
 
 Welcome to my website! I am quantitative social scientist specializing in the politics of global economic integration, industrial policy, and survey research methods.
 
-I completed my Ph.D in Government at Harvard University in May 2026.  Prior to starting at Harvard, I worked as a Research Analyst on the Technology Custom Research team at YouGov in San Francisco, California. I hold a B.A. in Political Science and History from the University of Michigan. 
+I completed my Ph.D. in Government at Harvard University in May 2026.  Prior to starting at Harvard, I worked as a Research Analyst on the Technology Custom Research team at YouGov in San Francisco, California. I hold a B.A. in Political Science and History from the University of Michigan. 
 
 I am transitioning away from academia and into more applied and public-facing work. I am beginning a short-term Postdoctoral Fellowship with Harvard's Sustainability, Transparency, and Accountability Research (STAR) Lab in August 2026. With STAR, I will partner with the Commonwealth Bank of Australia to design novel field experiments on the public's relationship to the energy transition and AI.
 
