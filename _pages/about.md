@@ -7,11 +7,13 @@ redirect_from:
   - /about.html
 ---
 
-I am a Ph.D Candidate in the Department of Government at Harvard University. I completed my B.A. in Political Science and History at the University of Michigan. Prior to starting at Harvard, I worked as a Research Analyst at YouGov in San Francisco, California. 
+Welcome to my website! I am quantitative social scientist specializing in the politics of global economic integration, industrial policy, and survey research methods.
 
-My research sits at the intersection of international political economy, comparative political economy, political psychology, and political behavior. My dissertation project investigates how publics, governments, and firms imagine, evaluate, and construct nationality for multinational corporations, and the effects of corporate nationality on regulatory outcomes, strategic investments, and industrial policy.
+I completed my Ph.D in Government at Harvard University in May 2026.  Prior to starting at Harvard, I worked as a Research Analyst on the Technology Custom Research team at YouGov in San Francisco, California. I hold a B.A. in Political Science and History from the University of Michigan. 
 
-I am affiliated with the Institute for Quantitative Social Science (IQSS), Weatherhead Center for International Affairs (WCFIA), and the Center for American Political Studies (CAPS). I am also a Senior Lab Manager at Harvard’s Digital Lab for the Social Sciences (DLABSS).
+I am transitioning away from academia and into more applied and public-facing work. I am beginning a short-term Postdoctoral Fellowship with Harvard's Sustainability, Transparency, and Accountability Research (STAR) Lab in August 2026. With STAR, I will partner with the Commonwealth Bank of Australia to design novel field experiments on the public's relationship to the energy transition and AI.
+
+My research expertise straddles international political economy, comparative political economy, political psychology, and political behavior. My dissertation project investigated how publics and governments imagine, evaluate, and construct nationality for multinational corporations, and the effects of corporate nationality on regulatory outcomes, strategic investments, and industrial policy.
 
 In my spare time, I enjoy photography, playing guitar, studying chess, and agonizing over Michigan athletics.
 
